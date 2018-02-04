@@ -1,11 +1,11 @@
 #!/bin/bash
 #set -x
 
-MAJOR_VERSION=3.7
-VERSION=${MAJOR_VERSION}.0
+MAJOR_VERSION=3.8
+VERSION=${MAJOR_VERSION}.1
 JAR_FILE=selenium-server-standalone-${VERSION}.jar
 
-CHROMEDRIVER_VERSION=2.33
+CHROMEDRIVER_VERSION=2.35
 OS=mac64
 
 if [ "$(uname)" == "Darwin" ]; then
